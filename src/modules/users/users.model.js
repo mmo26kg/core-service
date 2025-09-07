@@ -1,8 +1,30 @@
-// In a real app, map to Sequelize model later
-export class UserModel {
-    constructor({ id, name, email }) {
-        this.id = id
-        this.name = name
-        this.email = email
-    }
+import { DataTypes } from 'sequelize'
+
+export function defineUserModel(sequelize) {
+    return sequelize.define(
+        'User',
+        {
+            id: {
+                type: DataTypes.INTEGER,
+                primaryKey: true,
+                autoIncrement: true,
+            },
+            name: {
+                type: DataTypes.STRING,
+                allowNull: false,
+            },
+            email: {
+                type: DataTypes.STRING,
+                allowNull: false,
+                unique: true,
+                validate: {
+                    isEmail: true,
+                },
+            },
+        },
+        {
+            tableName: 'users',
+            timestamps: true,
+        }
+    )
 }

@@ -44,10 +44,10 @@ This service follows a lightweight, NestJS-inspired module system with manual de
 
 ### Execution flow
 
-1) `main.js` creates `logger`, `ModuleRegistry`, then calls `registerAllModules(registry)` from `src/modules/index.js`.
-2) `Application.bootstrap()` runs `onModuleInit(context)` for every module — each module can publish services via `context.set(key, value)` to enable manual DI.
-3) An Express app is created via `createServer()` and passed to `Application.registerRoutes(httpApp)`; modules with `registerRoutes()` mount their routers.
-4) OS signals (SIGINT) trigger `Application.shutdown()` which calls `onModuleDestroy(context)` in reverse order.
+1. `main.js` creates `logger`, `ModuleRegistry`, then calls `registerAllModules(registry)` from `src/modules/index.js`.
+2. `Application.bootstrap()` runs `onModuleInit(context)` for every module — each module can publish services via `context.set(key, value)` to enable manual DI.
+3. An Express app is created via `createServer()` and passed to `Application.registerRoutes(httpApp)`; modules with `registerRoutes()` mount their routers.
+4. OS signals (SIGINT) trigger `Application.shutdown()` which calls `onModuleDestroy(context)` in reverse order.
 
 ### ASCII overview
 
@@ -123,11 +123,11 @@ This service follows a lightweight, NestJS-inspired module system with manual de
 
 ### Add a new feature module
 
-1) Create `src/modules/<feature>/` with:
-     - `<feature>.service.js`, `<feature>.controller.js`, `<feature>.routes.js`, `<feature>.module.js`, `index.js` (optional barrel)
-2) Export and register in `src/modules/index.js`:
-     ```js
-     import { <Feature>Module } from './<feature>/<feature>.module.js'
-     export const modules = [ /* existing */, <Feature>Module ]
-     ```
-3) Done — `main.js` already assembles all modules via `registerAllModules()`.
+1. Create `src/modules/<feature>/` with:
+    - `<feature>.service.js`, `<feature>.controller.js`, `<feature>.routes.js`, `<feature>.module.js`, `index.js` (optional barrel)
+2. Export and register in `src/modules/index.js`:
+    ```js
+    import { <Feature>Module } from './<feature>/<feature>.module.js'
+    export const modules = [ /* existing */, <Feature>Module ]
+    ```
+3. Done — `main.js` already assembles all modules via `registerAllModules()`.

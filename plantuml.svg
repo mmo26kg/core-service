@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="810px" preserveAspectRatio="none" style="width:1425px;height:810px;background:#FFFFFF;" version="1.1" viewBox="0 0 1425 810" width="1425px" zoomAndPan="magnify"><defs/><g><rect fill="#FFFFFF" height="123.9648" style="stroke:#000000;stroke-width:1.0;" width="10" x="915" y="309.3594"/><rect fill="#FFFFFF" height="100.3984" style="stroke:#000000;stroke-width:1.0;" width="10" x="915" y="531.2891"/><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="51" x2="51" y1="82.2969" y2="729.0859"/><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="157" x2="157" y1="82.2969" y2="729.0859"/><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="316.5" x2="316.5" y1="82.2969" y2="729.0859"/><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="521.5" x2="521.5" y1="82.2969" y2="729.0859"/><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="661.5" x2="661.5" y1="82.2969" y2="729.0859"/><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="919.5" x2="919.5" y1="82.2969" y2="729.0859"/><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="1233" x2="1233" y1="82.2969" y2="729.0859"/><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="1347" x2="1347" y1="82.2969" y2="729.0859"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="50" x="23" y="78.9951">Startup</text><ellipse cx="51" cy="14" fill="#FFFFFF" rx="8" ry="8" style="stroke:#000000;stroke-width:1.0;"/><path d="M51,22 L51,49 M38,30 L64,30 M51,49 L38,64 M51,49 L64,64 " fill="none" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="50" x="23" y="741.0811">Startup</text><ellipse cx="51" cy="753.3828" fill="#FFFFFF" rx="8" ry="8" style="stroke:#000000;stroke-width:1.0;"/><path d="M51,761.3828 L51,788.3828 M38,769.3828 L64,769.3828 M51,788.3828 L38,803.3828 M51,788.3828 L64,803.3828 " fill="none" style="stroke:#000000;stroke-width:1.0;"/><rect fill="#FFFFFF" height="30.2969" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:1.0;" width="62" x="126" y="51"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="48" x="133" y="70.9951">main.js</text><rect fill="#FFFFFF" height="30.2969" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:1.0;" width="62" x="126" y="728.0859"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="48" x="133" y="748.0811">main.js</text><rect fill="#FFFFFF" height="30.2969" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:1.0;" width="121" x="256.5" y="51"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="107" x="263.5" y="70.9951">ModuleRegistry</text><rect fill="#FFFFFF" height="30.2969" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:1.0;" width="121" x="256.5" y="728.0859"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="107" x="263.5" y="748.0811">ModuleRegistry</text><rect fill="#FFFFFF" height="30.2969" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:1.0;" width="131" x="456.5" y="51"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="117" x="463.5" y="70.9951">modules/index.js</text><rect fill="#FFFFFF" height="30.2969" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:1.0;" width="131" x="456.5" y="728.0859"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="117" x="463.5" y="748.0811">modules/index.js</text><rect fill="#FFFFFF" height="30.2969" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:1.0;" width="89" x="617.5" y="51"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="75" x="624.5" y="70.9951">Application</text><rect fill="#FFFFFF" height="30.2969" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:1.0;" width="89" x="617.5" y="728.0859"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="75" x="624.5" y="748.0811">Application</text><rect fill="#FFFFFF" height="30.2969" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:1.0;" width="105" x="867.5" y="51"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="91" x="874.5" y="70.9951">UsersModule</text><rect fill="#FFFFFF" height="30.2969" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:1.0;" width="105" x="867.5" y="728.0859"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="91" x="874.5" y="748.0811">UsersModule</text><rect fill="#FFFFFF" height="30.2969" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:1.0;" width="68" x="1199" y="51"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="54" x="1206" y="70.9951">Context</text><rect fill="#FFFFFF" height="30.2969" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:1.0;" width="68" x="1199" y="728.0859"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="54" x="1206" y="748.0811">Context</text><rect fill="#FFFFFF" height="30.2969" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:1.0;" width="100" x="1297" y="51"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="86" x="1304" y="70.9951">Express App</text><rect fill="#FFFFFF" height="30.2969" rx="2.5" ry="2.5" style="stroke:#000000;stroke-width:1.0;" width="100" x="1297" y="728.0859"/><text fill="#000000" font-family="Verdana" font-size="14" lengthAdjust="spacing" textLength="86" x="1304" y="748.0811">Express App</text><rect fill="#FFFFFF" height="123.9648" style="stroke:#000000;stroke-width:1.0;" width="10" x="915" y="309.3594"/><rect fill="#FFFFFF" height="100.3984" style="stroke:#000000;stroke-width:1.0;" width="10" x="915" y="531.2891"/><polygon fill="#000000" points="145,109.4297,155,113.4297,145,117.4297,149,113.4297" style="stroke:#000000;stroke-width:1.0;"/><line style="stroke:#000000;stroke-width:1.0;" x1="51" x2="151" y1="113.4297" y2="113.4297"/><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="82" x="58" y="108.3638">node main.js</text><polygon fill="#000000" points="305,138.5625,315,142.5625,305,146.5625,309,142.5625" style="stroke:#000000;stroke-width:1.0;"/><line style="stroke:#000000;stroke-width:1.0;" x1="157" x2="311" y1="142.5625" y2="142.5625"/><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="136" x="164" y="137.4966">new ModuleRegistry()</text><polygon fill="#000000" points="510,167.6953,520,171.6953,510,175.6953,514,171.6953" style="stroke:#000000;stroke-width:1.0;"/><line style="stroke:#000000;stroke-width:1.0;" x1="157" x2="516" y1="171.6953" y2="171.6953"/><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="175" x="164" y="166.6294">registerAllModules(registry)</text><polygon fill="#000000" points="328,207.3945,318,211.3945,328,215.3945,324,211.3945" style="stroke:#000000;stroke-width:1.0;"/><line style="stroke:#000000;stroke-width:1.0;" x1="322" x2="521" y1="211.3945" y2="211.3945"/><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="181" x="334" y="206.3286">register(new UsersModule())</text><path d="M527,184.6953 L527,224.6953 L659,224.6953 L659,194.6953 L649,184.6953 L527,184.6953 " fill="#FFFFFF" style="stroke:#000000;stroke-width:1.0;"/><path d="M649,184.6953 L649,194.6953 L659,194.6953 L649,184.6953 " fill="#FFFFFF" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="111" x="533" y="201.7622">Singleton pattern</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="85" x="533" y="216.895">ensured here</text><polygon fill="#000000" points="650,247.0938,660,251.0938,650,255.0938,654,251.0938" style="stroke:#000000;stroke-width:1.0;"/><line style="stroke:#000000;stroke-width:1.0;" x1="157" x2="656" y1="251.0938" y2="251.0938"/><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="157" x="164" y="246.0278">new Application(registry)</text><polygon fill="#000000" points="650,276.2266,660,280.2266,650,284.2266,654,280.2266" style="stroke:#000000;stroke-width:1.0;"/><line style="stroke:#000000;stroke-width:1.0;" x1="157" x2="656" y1="280.2266" y2="280.2266"/><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="72" x="164" y="275.1606">bootstrap()</text><polygon fill="#000000" points="903,305.3594,913,309.3594,903,313.3594,907,309.3594" style="stroke:#000000;stroke-width:1.0;"/><line style="stroke:#000000;stroke-width:1.0;" x1="662" x2="909" y1="309.3594" y2="309.3594"/><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="139" x="669" y="304.2935">onModuleInit(context)</text><line style="stroke:#000000;stroke-width:1.0;" x1="925" x2="967" y1="338.4922" y2="338.4922"/><line style="stroke:#000000;stroke-width:1.0;" x1="967" x2="967" y1="338.4922" y2="351.4922"/><line style="stroke:#000000;stroke-width:1.0;" x1="926" x2="967" y1="351.4922" y2="351.4922"/><polygon fill="#000000" points="936,347.4922,926,351.4922,936,355.4922,932,351.4922" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="214" x="932" y="333.4263">this.service = new UsersService()</text><line style="stroke:#000000;stroke-width:1.0;" x1="925" x2="967" y1="380.625" y2="380.625"/><line style="stroke:#000000;stroke-width:1.0;" x1="967" x2="967" y1="380.625" y2="393.625"/><line style="stroke:#000000;stroke-width:1.0;" x1="926" x2="967" y1="393.625" y2="393.625"/><polygon fill="#000000" points="936,389.625,926,393.625,936,397.625,932,393.625" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="289" x="932" y="375.5591">this.controller = new UsersController(service)</text><polygon fill="#000000" points="1221,429.3242,1231,433.3242,1221,437.3242,1225,433.3242" style="stroke:#000000;stroke-width:1.0;"/><line style="stroke:#000000;stroke-width:1.0;" x1="920" x2="1227" y1="433.3242" y2="433.3242"/><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="198" x="927" y="428.2583">set('usersService', this.service)</text><path d="M1238,406.625 L1238,446.625 L1418,446.625 L1418,416.625 L1408,406.625 L1238,406.625 " fill="#FFFFFF" style="stroke:#000000;stroke-width:1.0;"/><path d="M1408,406.625 L1408,416.625 L1418,416.625 L1408,406.625 " fill="#FFFFFF" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="106" x="1244" y="423.6919">Optional: publish</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="159" x="1244" y="438.8247">for cross-module sharing</text><polygon fill="#000000" points="1335,469.0234,1345,473.0234,1335,477.0234,1339,473.0234" style="stroke:#000000;stroke-width:1.0;"/><line style="stroke:#000000;stroke-width:1.0;" x1="157" x2="1341" y1="473.0234" y2="473.0234"/><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="93" x="164" y="467.9575">createServer()</text><polygon fill="#000000" points="650,498.1563,660,502.1563,650,506.1563,654,502.1563" style="stroke:#000000;stroke-width:1.0;"/><line style="stroke:#000000;stroke-width:1.0;" x1="157" x2="656" y1="502.1563" y2="502.1563"/><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="234" x="164" y="497.0903">registerRoutes(expressApp, context)</text><polygon fill="#000000" points="903,527.2891,913,531.2891,903,535.2891,907,531.2891" style="stroke:#000000;stroke-width:1.0;"/><line style="stroke:#000000;stroke-width:1.0;" x1="662" x2="909" y1="531.2891" y2="531.2891"/><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="234" x="669" y="526.2231">registerRoutes(expressApp, context)</text><polygon fill="#000000" points="1221,556.4219,1231,560.4219,1221,564.4219,1225,560.4219" style="stroke:#000000;stroke-width:1.0;"/><line style="stroke:#000000;stroke-width:1.0;" x1="925" x2="1227" y1="560.4219" y2="560.4219"/><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="231" x="932" y="555.356">get('someOtherService') // if needed</text><line style="stroke:#000000;stroke-width:1.0;" x1="925" x2="967" y1="589.5547" y2="589.5547"/><line style="stroke:#000000;stroke-width:1.0;" x1="967" x2="967" y1="589.5547" y2="602.5547"/><line style="stroke:#000000;stroke-width:1.0;" x1="926" x2="967" y1="602.5547" y2="602.5547"/><polygon fill="#000000" points="936,598.5547,926,602.5547,936,606.5547,932,602.5547" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="206" x="932" y="584.4888">buildUsersRouter(this.controller)</text><polygon fill="#000000" points="1335,627.6875,1345,631.6875,1335,635.6875,1339,631.6875" style="stroke:#000000;stroke-width:1.0;"/><line style="stroke:#000000;stroke-width:1.0;" x1="920" x2="1341" y1="631.6875" y2="631.6875"/><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="125" x="927" y="626.6216">use('/users', router)</text><polygon fill="#000000" points="1335,656.8203,1345,660.8203,1335,664.8203,1339,660.8203" style="stroke:#000000;stroke-width:1.0;"/><line style="stroke:#000000;stroke-width:1.0;" x1="157" x2="1341" y1="660.8203" y2="660.8203"/><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="70" x="164" y="655.7544">listen(port)</text><path d="M10,673.8203 L10,713.8203 L1389,713.8203 L1389,683.8203 L1379,673.8203 L10,673.8203 " fill="#FFFFFF" style="stroke:#000000;stroke-width:1.0;"/><path d="M1379,673.8203 L1379,683.8203 L1389,683.8203 L1379,673.8203 " fill="#FFFFFF" style="stroke:#000000;stroke-width:1.0;"/><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="87" x="623.5" y="690.8872">Server ready!</text><text fill="#000000" font-family="Verdana" font-size="13" lengthAdjust="spacing" textLength="143" x="623.5" y="706.02">DI container fully wired</text><!--MD5=[9c0135624173484d1beb5545d63daaa1]
+@startuml
+!theme plain
+skinparam backgroundColor white
+
+actor "Startup" as Start
+participant "main.js" as Main
+participant "ModuleRegistry" as Registry
+participant "modules/index.js" as ModIndex
+participant "Application" as App
+participant "UsersModule" as UM
+participant "Context" as Context
+participant "Express App" as Express
+
+Start -> Main : node main.js
+
+Main -> Registry : new ModuleRegistry()
+Main -> ModIndex : registerAllModules(registry)
+ModIndex -> Registry : register(new UsersModule())
+note right : Singleton pattern\nensured here
+
+Main -> App : new Application(registry)
+Main -> App : bootstrap()
+
+App -> UM : onModuleInit(context)
+activate UM
+    UM -> UM : this.service = new UsersService()
+    UM -> UM : this.controller = new UsersController(service)
+    UM -> Context : set('usersService', this.service)
+    note right : Optional: publish\nfor cross-module sharing
+deactivate UM
+
+Main -> Express : createServer()
+Main -> App : registerRoutes(expressApp, context)
+
+App -> UM : registerRoutes(expressApp, context)
+activate UM
+    UM -> Context : get('someOtherService') // if needed
+    UM -> UM : buildUsersRouter(this.controller)
+    UM -> Express : use('/users', router)
+deactivate UM
+
+Main -> Express : listen(port)
+
+note over Start, Express : Server ready!\nDI container fully wired
+@enduml
+
+@startuml
+
+
+
+
+
+
+
+<style>
+  root {
+    BackgroundColor white
+    FontColor black
+    FontName Verdana
+    HyperLinkColor blue
+    LineColor black
+    LineThickness 1
+    Margin 5
+  }
+  caption {
+    LineThickness 0
+  }
+  footer {
+    LineThickness 0
+  }
+  header {
+    LineThickness 0
+  }
+  node {
+    MaximumWidth 300
+  }
+  title {
+    FontSize 22
+    LineThickness 0
+  }
+</style>
+
+skinparam ArrowLollipopColor black
+skinparam BackgroundColor white
+skinparam DefaultFontName Verdana
+skinparam DefaultMonospacedFontName Courier
+skinparam LifelineStrategy nosolid
+skinparam ParticipantPadding 10
+skinparam SequenceLifeLineBorderColor black
+skinparam Shadowing false
+skinparam UseBetaStyle true
+
+skinparam Activity {
+  BackgroundColor white
+  BarColor black
+  BorderColor black
+  FontColor black
+  FontName Verdana
+}
+skinparam Boundary {
+  FontColor black
+}
+skinparam Box {
+  Padding 5
+}
+skinparam CircledCharacter {
+  FontColor black
+  FontName Courier
+  Radius 9
+}
+skinparam Class {
+  BackgroundColor white
+  BorderColor black
+  FontColor black
+  FontName Verdana
+}
+skinparam ClassAttribute {
+  FontColor black
+  FontName Verdana
+}
+skinparam ClassStereotype {
+  FontColor black
+  FontName Verdana
+}
+skinparam Footer {
+  FontColor black
+  FontName Verdana
+}
+skinparam Header {
+  FontColor black
+  FontName Verdana
+}
+skinparam Hyperlink {
+  Color blue
+}
+skinparam IconPackage {
+  Color black
+  BackgroundColor white
+}
+skinparam IconPrivate {
+  Color black
+  BackgroundColor white
+}
+skinparam IconProtected {
+  Color black
+  BackgroundColor white
+}
+skinparam IconPublic {
+  Color black
+  BackgroundColor white
+}
+skinparam Note {
+  FontColor black
+  FontName Verdana
+}
+skinparam Object {
+  BorderColor black
+}
+skinparam Package {
+  BorderColor black
+  FontColor black
+  FontName Verdana
+}
+skinparam State {
+  BackgroundColor white
+  BorderColor black
+}
+skinparam StereotypeA {
+  BackgroundColor white
+  BorderColor black
+}
+skinparam StereotypeC {
+  BackgroundColor white
+  BorderColor black
+}
+skinparam StereotypeE {
+  BackgroundColor white
+  BorderColor black
+}
+skinparam StereotypeI {
+  BackgroundColor white
+  BorderColor black
+}
+skinparam StereotypeN {
+  BackgroundColor white
+  BorderColor black
+}
+skinparam UseCaseStereoType {
+  FontColor black
+  FontName Verdana
+}
+skinparam backgroundColor white
+
+actor "Startup" as Start
+participant "main.js" as Main
+participant "ModuleRegistry" as Registry
+participant "modules/index.js" as ModIndex
+participant "Application" as App
+participant "UsersModule" as UM
+participant "Context" as Context
+participant "Express App" as Express
+
+Start -> Main : node main.js
+
+Main -> Registry : new ModuleRegistry()
+Main -> ModIndex : registerAllModules(registry)
+ModIndex -> Registry : register(new UsersModule())
+note right : Singleton pattern\nensured here
+
+Main -> App : new Application(registry)
+Main -> App : bootstrap()
+
+App -> UM : onModuleInit(context)
+activate UM
+    UM -> UM : this.service = new UsersService()
+    UM -> UM : this.controller = new UsersController(service)
+    UM -> Context : set('usersService', this.service)
+    note right : Optional: publish\nfor cross-module sharing
+deactivate UM
+
+Main -> Express : createServer()
+Main -> App : registerRoutes(expressApp, context)
+
+App -> UM : registerRoutes(expressApp, context)
+activate UM
+    UM -> Context : get('someOtherService') // if needed
+    UM -> UM : buildUsersRouter(this.controller)
+    UM -> Express : use('/users', router)
+deactivate UM
+
+Main -> Express : listen(port)
+
+note over Start, Express : Server ready!\nDI container fully wired
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 17:01:30 UTC 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: null
+--></g></svg>

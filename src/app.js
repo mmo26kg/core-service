@@ -7,11 +7,11 @@ export class Application {
         this.httpApp = null // Express instance when started
     }
 
-    bootstrap() {
+    bootstrap(sequelize) {
         // Initialize modules
         const modules = this.registry.getModules()
         modules.forEach((mod) => {
-            mod.onModuleInit?.(this.context)
+            mod.onModuleInit?.(this.context, sequelize)
         })
 
         this.logger.info(`Application bootstrapped with ${modules.length} module(s).`)

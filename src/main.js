@@ -5,6 +5,7 @@ import { createLogger } from './common/logger.js'
 import { registerAllModules } from './modules/index.js'
 import { createServer } from './server.js'
 import config from '../config/default.js'
+import { dbConfig } from '../config/database.js'
 
 // Bootstrap the application
 const logger = createLogger({ level: 'info' })
@@ -13,7 +14,12 @@ const registry = new ModuleRegistry({ logger })
 registerAllModules(registry)
 
 const app = new Application({ registry, logger })
-app.bootstrap()
+
+// Database setup
+const sequelize = dbConfig.createSequelize(logger)
+app.bootstrap(sequelize)
+await dbConfig.authenticateSequelize(sequelize, logger)
+await dbConfig.syncSequelize(sequelize, logger)
 
 // HTTP server
 const httpApp = createServer()
@@ -24,8 +30,11 @@ const server = httpApp.listen(config.server.port, () => {
 })
 
 // Graceful shutdown hooks (expand later for real servers)
-process.on('SIGINT', () => {
+process.on('SIGINT', async () => {
     logger.info('Shutting down...')
     app.shutdown?.()
+    try {
+        await dbConfig.closeSequelize(sequelize, logger)
+    } catch {}
     server?.close(() => process.exit(0))
 })
