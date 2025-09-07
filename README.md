@@ -52,18 +52,18 @@ This service follows a lightweight, NestJS-inspired module system with manual de
 ### ASCII overview
 
 ```
-+---------------------+        +--------------------+
-|      main.js        |        |  modules/index.js  |
-|---------------------|        |--------------------|
-| - createLogger()    |        | export modules[]   |
-| - new ModuleRegistry| -----> | registerAllModules |
-| - registerAllModules|        +--------------------+
++---------------------+                      +--------------------+
+|      main.js        |                      |  modules/index.js  |
+|---------------------|                      |--------------------|
+| - createLogger()    |                      | export modules[]   |
+| - new ModuleRegistry|        ----->        | registerAllModules |
+| - registerAllModules|                      +--------------------+
 | - new Application   |
 | - app.bootstrap()   |
-| - httpApp=createServer()     +--------------------+
-| - app.registerRoutes(httpApp)|  ModuleRegistry    |
-| - httpApp.listen(...)        |--------------------|
-+-------------+-------+        | modules: Module[]  |
+| - httpApp=createServer()                   +--------------------+
+| - app.registerRoutes(httpApp)              |  ModuleRegistry    |
+| - httpApp.listen(...)                      |--------------------|
++-------------+-------+                      | modules: Module[]  |
                             |                | register(Module)   |
                             |                | getModules()       |
                             v                +---------+----------+

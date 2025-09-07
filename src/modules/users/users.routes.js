@@ -3,6 +3,8 @@ import { Router } from 'express'
 export function buildUsersRouter(controller) {
     const router = Router()
 
+    // Basic routes
+
     router.get('/', (_req, res) => {
         res.json(controller.list())
     })

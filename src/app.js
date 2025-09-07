@@ -22,7 +22,14 @@ export class Application {
         const modules = this.registry.getModules()
         modules.forEach((mod) => {
             if (typeof mod.registerRoutes === 'function') {
-                mod.registerRoutes(httpApp, this.context)
+                try {
+                    this.logger.info(`Mounting routes for ${mod.constructor.name}`)
+                    mod.registerRoutes(httpApp, this.context)
+                } catch (err) {
+                    this.logger.error(`Failed to mount routes for ${mod.constructor.name}`, err)
+                }
+            } else {
+                this.logger.debug?.(`No registerRoutes() in ${mod.constructor.name}`)
             }
         })
     }
