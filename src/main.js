@@ -2,7 +2,7 @@ import 'dotenv/config'
 import { Application } from './app.js'
 import { ModuleRegistry } from './core/module-registry.js'
 import { createLogger } from './common/logger.js'
-import { HealthModule } from './modules/health/health.module.js'
+import { registerAllModules } from './modules/index.js'
 import { createServer } from './server.js'
 import config from '../config/default.js'
 
@@ -10,7 +10,7 @@ import config from '../config/default.js'
 const logger = createLogger({ level: 'info' })
 
 const registry = new ModuleRegistry({ logger })
-registry.register(HealthModule)
+registerAllModules(registry)
 
 const app = new Application({ registry, logger })
 app.bootstrap()

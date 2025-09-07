@@ -29,9 +29,9 @@ export class Application {
 
     shutdown() {
         const modules = this.registry.getModules()
-            ;[...modules].reverse().forEach((mod) => {
-                mod.onModuleDestroy?.(this.context)
-            })
+        ;[...modules].reverse().forEach((mod) => {
+            mod.onModuleDestroy?.(this.context)
+        })
         this.logger.info('Application shutdown complete.')
     }
 }
